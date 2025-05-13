@@ -54,13 +54,19 @@ const Team = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-hmhy-blue-light py-16 md:py-24">
+      <section 
+        className="py-16 md:py-24 bg-cover bg-center"
+        style={{
+          backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b')",
+          backgroundSize: "cover"
+        }}
+      >
         <div className="hmhy-container">
-          <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold text-hmhy-blue-dark mb-6">
+          <div className="text-center max-w-3xl mx-auto text-white">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
               Meet Our Team
             </h1>
-            <p className="text-xl text-gray-700 mb-8">
+            <p className="text-xl mb-8">
               The dedicated individuals who make our mission possible through their passion,
               expertise, and commitment to serving our community.
             </p>
@@ -90,7 +96,7 @@ const Team = () => {
               <p className="text-lg mb-8">
                 Interested in learning more about our founder's inspiring journey?
               </p>
-              <Button asChild className="btn-primary">
+              <Button asChild className="bg-hmhy-orange hover:bg-hmhy-orange-dark">
                 <Link to="/elvis-story">Read Elvis' Story</Link>
               </Button>
             </div>
@@ -108,7 +114,7 @@ const Team = () => {
               volunteers, or board members. If you share our values and want to make a difference,
               we'd love to hear from you.
             </p>
-            <Button asChild className="btn-primary">
+            <Button asChild className="bg-hmhy-orange hover:bg-hmhy-orange-dark">
               <Link to="/contact">Contact Us About Opportunities</Link>
             </Button>
           </div>

@@ -7,17 +7,23 @@ const ElvisStory = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-hmhy-yellow-light py-16 md:py-24">
+      <section 
+        className="py-16 md:py-24 bg-cover bg-center"
+        style={{
+          backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158')",
+          backgroundSize: "cover"
+        }}
+      >
         <div className="hmhy-container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h1 className="text-4xl md:text-5xl font-bold text-hmhy-yellow-dark mb-6">
+            <div className="text-white">
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Elvis Ingadi's Story
               </h1>
-              <p className="text-xl text-gray-700 mb-4">
+              <p className="text-xl mb-4">
                 From personal tragedy to founding a community-changing organization
               </p>
-              <p className="text-gray-600">
+              <p className="text-gray-300">
                 A story of resilience, hope, and the power of giving back.
               </p>
             </div>
@@ -25,7 +31,7 @@ const ElvisStory = () => {
               <img
                 src="/placeholder.svg"
                 alt="Elvis Ingadi, Founder"
-                className="rounded-xl shadow-lg max-h-96 object-cover"
+                className="rounded-xl shadow-lg max-h-96 object-cover border-4 border-white"
               />
             </div>
           </div>

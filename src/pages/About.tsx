@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -9,28 +8,25 @@ const About = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-hmhy-green-light py-16 md:py-24">
+      <section 
+        className="py-16 md:py-24 bg-cover bg-center"
+        style={{
+          backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1605810230434-7631ac76ec81')",
+          backgroundSize: "cover"
+        }}
+      >
         <div className="hmhy-container">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h1 className="text-4xl md:text-5xl font-bold text-hmhy-green mb-6">
-                About HappyMeHappyYou
-              </h1>
-              <p className="text-xl text-gray-700 mb-8">
-                We are a community-based organization dedicated to supporting children and
-                families in Western Kenya through education, health, and development programs.
-              </p>
-              <Button asChild size="lg" className="btn-primary">
-                <Link to="/donor-dashboard">Make a Donation</Link>
-              </Button>
-            </div>
-            <div className="flex justify-center">
-              <img
-                src="/placeholder.svg"
-                alt="Children supported by our organization"
-                className="rounded-xl shadow-lg max-h-96 object-cover"
-              />
-            </div>
+          <div className="max-w-3xl mx-auto text-center text-white">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              About HappyMeHappyYou
+            </h1>
+            <p className="text-xl mb-8">
+              We are a community-based organization dedicated to supporting children and
+              families in Western Kenya through education, health, and development programs.
+            </p>
+            <Button asChild size="lg" className="bg-hmhy-orange hover:bg-hmhy-orange-dark">
+              <Link to="/donor-dashboard">Make a Donation</Link>
+            </Button>
           </div>
         </div>
       </section>
