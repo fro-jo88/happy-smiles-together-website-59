@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,6 +53,24 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+                // Custom color palette for HappyMeHappyYou
+                hmhy: {
+                    green: {
+                        light: '#C4D6A4',
+                        DEFAULT: '#7FB069',
+                        dark: '#5A7D48'
+                    },
+                    yellow: {
+                        light: '#FFE7A2',
+                        DEFAULT: '#FFCB47',
+                        dark: '#E0AB26'
+                    },
+                    blue: {
+                        light: '#D3E4FD',
+                        DEFAULT: '#A4C5D6',
+                        dark: '#6A96AF'
+                    }
+                },
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,12 +103,36 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+                'fade-in': {
+                    '0%': {
+                        opacity: '0'
+                    },
+                    '100%': {
+                        opacity: '1'
+                    }
+                },
+                'count-up': {
+                    '0%': {
+                        transform: 'translateY(20%)',
+                        opacity: '0'
+                    },
+                    '100%': {
+                        transform: 'translateY(0)',
+                        opacity: '1'
+                    }
+                }
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+                'fade-in': 'fade-in 0.5s ease-out forwards',
+                'count-up': 'count-up 1s ease-out forwards'
+			},
+            fontFamily: {
+                montserrat: ['Montserrat', 'sans-serif'],
+                opensans: ['Open Sans', 'sans-serif']
+            }
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
