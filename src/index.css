@@ -16,16 +16,16 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 142 37% 55%; /* Green color */
+    --primary: 12 88% 55%; /* Orange color from logo */
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 43 100% 64%; /* Yellow color */
+    --secondary: 266 44% 47%; /* Purple color from logo */
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 199 38% 74%; /* Blue color */
+    --accent: 197 79% 64%; /* Blue color from logo */
     --accent-foreground: 222.2 47.4% 11.2%;
 
     --destructive: 0 84.2% 60.2%;
@@ -33,7 +33,7 @@
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 142 37% 55%;
+    --ring: 12 88% 55%;
 
     --radius: 0.5rem;
 
@@ -57,16 +57,16 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 142 37% 45%;
+    --primary: 12 88% 45%;
     --primary-foreground: 222.2 47.4% 11.2%;
 
-    --secondary: 43 100% 54%;
+    --secondary: 266 44% 37%;
     --secondary-foreground: 210 40% 98%;
 
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 199 38% 64%;
+    --accent: 197 79% 54%;
     --accent-foreground: 210 40% 98%;
 
     --destructive: 0 62.8% 30.6%;
@@ -118,15 +118,15 @@
   }
 
   .btn-primary {
-    @apply bg-hmhy-green text-white px-6 py-3 rounded-md font-semibold hover:bg-hmhy-green-dark transition-all inline-block;
+    @apply bg-hmhy-orange text-white px-6 py-3 rounded-md font-semibold hover:bg-hmhy-orange-dark transition-all inline-block;
   }
 
   .btn-secondary {
-    @apply bg-hmhy-yellow text-black px-6 py-3 rounded-md font-semibold hover:bg-hmhy-yellow-dark transition-all inline-block;
+    @apply bg-hmhy-purple text-white px-6 py-3 rounded-md font-semibold hover:bg-hmhy-purple-dark transition-all inline-block;
   }
 
   .btn-outline {
-    @apply border-2 border-hmhy-green text-hmhy-green px-6 py-3 rounded-md font-semibold hover:bg-hmhy-green hover:text-white transition-all inline-block;
+    @apply border-2 border-hmhy-orange text-hmhy-orange px-6 py-3 rounded-md font-semibold hover:bg-hmhy-orange hover:text-white transition-all inline-block;
   }
 }
 

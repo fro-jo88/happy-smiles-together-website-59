@@ -99,7 +99,7 @@ const Team = () => {
       </section>
 
       {/* Join Our Team */}
-      <section className="section-padding bg-hmhy-green-light">
+      <section className="section-padding bg-hmhy-orange-light">
         <div className="hmhy-container">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Join Our Team</h2>

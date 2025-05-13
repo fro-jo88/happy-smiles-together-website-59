@@ -27,7 +27,7 @@ const Navigation = () => {
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="hmhy-container flex justify-between items-center py-4">
         <Link to="/" className="flex items-center">
-          <img src="/placeholder.svg" alt="HappyMeHappyYou" className="h-12" />
+          <img src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1747121083/logo_q6v8po.webp" alt="HappyMeHappyYou" className="h-12" />
         </Link>
 
         {/* Mobile menu button */}
@@ -45,12 +45,12 @@ const Navigation = () => {
             <Link
               key={link.name}
               to={link.path}
-              className="text-gray-700 hover:text-hmhy-green font-medium transition-colors"
+              className="text-gray-700 hover:text-hmhy-orange font-medium transition-colors"
             >
               {link.name}
             </Link>
           ))}
-          <Button className="bg-hmhy-green hover:bg-hmhy-green-dark font-bold">
+          <Button className="bg-hmhy-orange hover:bg-hmhy-orange-dark font-bold">
             Donate Now
           </Button>
         </nav>
@@ -60,7 +60,7 @@ const Navigation = () => {
           <div className="fixed inset-0 bg-white z-40 lg:hidden">
             <div className="hmhy-container py-4 flex justify-between items-center">
               <Link to="/" className="flex items-center">
-                <img src="/placeholder.svg" alt="HappyMeHappyYou" className="h-12" />
+                <img src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1747121083/logo_q6v8po.webp" alt="HappyMeHappyYou" className="h-12" />
               </Link>
               <button onClick={toggleMenu} aria-label="Close navigation menu">
                 <X size={24} />
@@ -77,7 +77,7 @@ const Navigation = () => {
                   {link.name}
                 </Link>
               ))}
-              <Button className="bg-hmhy-green hover:bg-hmhy-green-dark mt-4 font-bold">
+              <Button className="bg-hmhy-orange hover:bg-hmhy-orange-dark mt-4 font-bold">
                 Donate Now
               </Button>
             </nav>

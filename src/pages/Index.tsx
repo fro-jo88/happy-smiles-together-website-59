@@ -82,7 +82,7 @@ const Index = () => {
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto animate-fade-in">
               Small acts of kindness can make a big difference…
             </p>
-            <Button asChild size="lg" className="bg-hmhy-green hover:bg-hmhy-green-dark animate-fade-in">
+            <Button asChild size="lg" className="bg-hmhy-orange hover:bg-hmhy-orange-dark animate-fade-in">
               <Link to="/donor-dashboard">Donate Now</Link>
             </Button>
           </div>
@@ -92,7 +92,7 @@ const Index = () => {
       {/* Core Values Section */}
       <section className="section-padding bg-gray-50">
         <div className="hmhy-container">
-          <h2 className="section-title text-hmhy-green">Our Core Values</h2>
+          <h2 className="section-title text-hmhy-orange">Our Core Values</h2>
           <p className="section-subtitle">
             Our commitment to creating lasting positive change is guided by these principles
           </p>
@@ -131,7 +131,7 @@ const Index = () => {
               />
             </div>
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-hmhy-green">
+              <h2 className="text-3xl md:text-4xl font-bold mb-6 text-hmhy-orange">
                 Our Main Goal is to Help Poor People!
               </h2>
               <p className="text-gray-600 mb-6">
@@ -157,7 +157,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="bg-white shadow-md">
               <CardContent className="p-6">
-                <h3 className="text-2xl font-bold mb-4 text-hmhy-green">Our Mission</h3>
+                <h3 className="text-2xl font-bold mb-4 text-hmhy-orange">Our Mission</h3>
                 <p className="text-gray-600">
                   To promote education, health, and sustainability through community-based programs
                   that empower children and families to break the cycle of poverty.
@@ -167,7 +167,7 @@ const Index = () => {
             
             <Card className="bg-white shadow-md">
               <CardContent className="p-6">
-                <h3 className="text-2xl font-bold mb-4 text-hmhy-green">Our Vision</h3>
+                <h3 className="text-2xl font-bold mb-4 text-hmhy-orange">Our Vision</h3>
                 <p className="text-gray-600">
                   Thriving families leading prosperous communities where every child has the opportunity
                   to reach their full potential.
@@ -177,7 +177,7 @@ const Index = () => {
             
             <Card className="bg-white shadow-md">
               <CardContent className="p-6">
-                <h3 className="text-2xl font-bold mb-4 text-hmhy-green">Our Values</h3>
+                <h3 className="text-2xl font-bold mb-4 text-hmhy-orange">Our Values</h3>
                 <p className="text-gray-600">
                   Care and empathy for vulnerable children, accountability in all our actions,
                   and sustainable solutions that respect local culture and environment.
@@ -285,17 +285,17 @@ const Index = () => {
       </section>
 
       {/* Call to Action Banner */}
-      <section className="py-16 bg-hmhy-green text-white">
+      <section className="py-16 bg-hmhy-purple text-white">
         <div className="hmhy-container text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Make a Difference?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Join us in our mission to create lasting change in the lives of children and families in Western Kenya.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-hmhy-green">
+            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-hmhy-purple">
               <Link to="/contact">Become a Volunteer</Link>
             </Button>
-            <Button asChild size="lg" className="bg-hmhy-yellow text-black hover:bg-hmhy-yellow-dark">
+            <Button asChild size="lg" className="bg-hmhy-orange text-black hover:bg-hmhy-orange-dark">
               <Link to="/donor-dashboard">Donate Now</Link>
             </Button>
           </div>

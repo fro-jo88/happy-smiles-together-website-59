@@ -53,22 +53,22 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-                // Custom color palette for HappyMeHappyYou
+                // Custom color palette for HappyMeHappyYou based on logo
                 hmhy: {
-                    green: {
-                        light: '#C4D6A4',
-                        DEFAULT: '#7FB069',
-                        dark: '#5A7D48'
+                    orange: {
+                        light: '#FF8C42',
+                        DEFAULT: '#F26430',
+                        dark: '#D94E1F'
                     },
-                    yellow: {
-                        light: '#FFE7A2',
-                        DEFAULT: '#FFCB47',
-                        dark: '#E0AB26'
+                    purple: {
+                        light: '#8B68C3',
+                        DEFAULT: '#6247AA',
+                        dark: '#4A3582'
                     },
                     blue: {
-                        light: '#D3E4FD',
-                        DEFAULT: '#A4C5D6',
-                        dark: '#6A96AF'
+                        light: '#68B0C3',
+                        DEFAULT: '#5BC0EB',
+                        dark: '#3F9BC2'
                     }
                 },
 				sidebar: {
