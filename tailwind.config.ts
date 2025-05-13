@@ -63,7 +63,7 @@ export default {
                     purple: {
                         light: '#8B68C3',
                         DEFAULT: '#6247AA',
-                        dark: '#4A3582'
+                        dark: '#014D63'  // Updated from #4A3582 to #014D63
                     },
                     blue: {
                         light: '#68B0C3',
