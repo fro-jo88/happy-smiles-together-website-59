@@ -1,6 +1,13 @@
 
 import React, { useEffect, useState } from 'react';
 
+// Declare the YouTube API callback on the window object
+declare global {
+  interface Window {
+    onYouTubeIframeAPIReady: () => void;
+  }
+}
+
 interface YouTubeBackgroundProps {
   videoId: string;
   children: React.ReactNode;

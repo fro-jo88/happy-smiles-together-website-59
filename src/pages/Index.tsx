@@ -1,7 +1,7 @@
 
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { HandHeart, Users, Award, ArrowRight, BookOpen, Utensils, GraduationCap, Droplets, Family, Lightbulb, Scissors, Heart } from 'lucide-react';
+import { HandHeart, Users, Award, ArrowRight, BookOpen, Utensils, GraduationCap, Droplets, Heart, Lightbulb, Scissors, HomeIcon, Users2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import YouTubeBackground from '@/components/YoutubeBackground';
@@ -41,7 +41,7 @@ const Index = () => {
     {
       title: "Adopt a Family",
       description: "Support entire families with resources they need.",
-      icon: <Family size={32} />,
+      icon: <Users2 size={32} />,
       link: "/programs#adopt-family"
     },
     {
@@ -59,7 +59,7 @@ const Index = () => {
     {
       title: "Family Planning",
       description: "Education and resources for family planning and health.",
-      icon: <Family size={32} />,
+      icon: <Users2 size={32} />,
       link: "/programs#family-planning"
     },
     {
