@@ -57,13 +57,13 @@ export default {
                 hmhy: {
                     orange: {
                         light: '#FF8C42',
-                        DEFAULT: '#F26430',
+                        DEFAULT: '#FF3F00', // Updated to #FF3F00
                         dark: '#D94E1F'
                     },
                     purple: {
                         light: '#8B68C3',
                         DEFAULT: '#6247AA',
-                        dark: '#4A3582'
+                        dark: '#014D63' // Previous change maintained
                     },
                     blue: {
                         light: '#68B0C3',

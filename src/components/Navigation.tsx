@@ -56,12 +56,12 @@ const Navigation = () => {
         </button>
 
         {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center gap-6">
+        <nav className="hidden lg:flex items-center gap-8">
           <NavigationMenu>
-            <NavigationMenuList>
+            <NavigationMenuList className="space-x-8">
               {navLinks.map((link) => 
                 link.dropdown ? (
-                  <NavigationMenuItem key={link.name}>
+                  <NavigationMenuItem key={link.name} className="mx-2">
                     <NavigationMenuTrigger className="text-gray-700 hover:text-hmhy-orange font-medium transition-colors">
                       {link.name}
                     </NavigationMenuTrigger>
@@ -83,7 +83,7 @@ const Navigation = () => {
                     </NavigationMenuContent>
                   </NavigationMenuItem>
                 ) : (
-                  <NavigationMenuItem key={link.name}>
+                  <NavigationMenuItem key={link.name} className="mx-2">
                     <Link
                       to={link.path}
                       className="text-gray-700 hover:text-hmhy-orange font-medium transition-colors"
