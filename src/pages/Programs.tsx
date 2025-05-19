@@ -66,7 +66,7 @@ const Programs = () => {
       id: "water-sanitation",
       title: "Water and Sanitation",
       description: "At Happy Me, Happy You Organization, we believe in creating clean, hygienic, and welcoming environments for everyone. As part of our commitment to fostering health and happiness.",
-      icon: <Water size={32} />
+      icon: <Droplets size={32} />
     },
     {
       id: "youth-development",
