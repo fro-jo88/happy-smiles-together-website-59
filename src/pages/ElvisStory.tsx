@@ -29,7 +29,7 @@ const ElvisStory = () => {
             </div>
             <div className="flex justify-center">
               <img
-                src="/placeholder.svg"
+                src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1747648018/06c877_754a9ab00c8b4e13a78a3af38d6130b6mv2_debo34.webp"
                 alt="Elvis Ingadi, Founder"
                 className="rounded-xl shadow-lg max-h-96 object-cover border-4 border-white"
               />
@@ -67,7 +67,7 @@ const ElvisStory = () => {
               
               <div className="my-8">
                 <img
-                  src="/placeholder.svg"
+                  src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1747648075/06c877_b1c0c25eb324413c8cf073442ed88eb4mv2-600x289_xm4j2m.webp"
                   alt="Elvis working with children"
                   className="w-full rounded-lg shadow-md"
                 />
