@@ -12,7 +12,7 @@ const CallToActionSection: React.FC = () => {
           Join us in our mission to create lasting change in the lives of children and families in Western Kenya.
         </p>
         <div className="flex flex-wrap gap-4 justify-center">
-          <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-hmhy-purple">
+          <Button asChild size="lg" variant="outline" className="bg-hmhy-orange text-black hover:bg-hmhy-orange-dark">
             <Link to="/contact">Become a Volunteer</Link>
           </Button>
           <Button asChild size="lg" className="bg-hmhy-orange text-black hover:bg-hmhy-orange-dark">
