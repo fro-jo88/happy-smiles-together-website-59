@@ -83,15 +83,15 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 py-10 border-t border-b border-gray-800">
           <div className="text-center">
             <h4 className="text-lg font-semibold mb-2">Become a Volunteer</h4>
-            <Link to="/contact" className="text-hmhy-purple hover:text-hmhy-purple-light">Learn More →</Link>
+            <Link to="/contact" className="bg-hmhy-orange text-black hover:bg-hmhy-orange-dark">Learn More →</Link>
           </div>
           <div className="text-center">
             <h4 className="text-lg font-semibold mb-2">Partner with Us Today</h4>
-            <Link to="/contact" className="text-hmhy-purple hover:text-hmhy-purple-light">Get in Touch →</Link>
+            <Link to="/contact" className="bg-hmhy-orange text-black hover:bg-hmhy-orange-dark">Get in Touch →</Link>
           </div>
           <div className="text-center">
             <h4 className="text-lg font-semibold mb-2">Join Us to Change Lives</h4>
-            <Link to="/donor-dashboard" className="text-hmhy-purple hover:text-hmhy-purple-light">Donate Now →</Link>
+            <Link to="/donor-dashboard" className="bg-hmhy-orange text-black hover:bg-hmhy-orange-dark">Donate Now →</Link>
           </div>
         </div>
 
