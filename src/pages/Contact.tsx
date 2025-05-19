@@ -66,6 +66,14 @@ const Contact = () => {
                     <h3 className="text-xl font-semibold">Location</h3>
                     <p className="text-gray-600 mt-1">Western Kenya</p>
                     <p className="text-gray-600">Kakamega County</p>
+                    <a
+                      href="https://www.google.com/maps/place/Haven+Court/@-1.261361,36.795884,103660m/data=!3m1!1e3!4m6!3m5!1s0x182f17693b368f0f:0x13091f14086655c5!8m2!3d-1.2613607!4d36.7958842!16s%2Fg%2F11c5g_94dv?hl=en-US&entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-hmhy-green underline mt-1 block"
+                    >
+                      View on Google Maps
+                    </a>
                   </div>
                 </div>
                 
@@ -82,9 +90,18 @@ const Contact = () => {
                 </div>
               </div>
               
-              {/* Map (placeholder) */}
-              <div className="mt-8 bg-gray-200 rounded-lg h-64 flex items-center justify-center">
-                <p className="text-gray-600">Map Placeholder</p>
+              {/* Map Embed */}
+              <div className="mt-8 rounded-lg overflow-hidden h-64 flex items-center justify-center bg-gray-200">
+                <iframe
+                  title="Google Map Location"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.420684694992!2d36.795884!3d-1.2613607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17693b368f0f%3A0x13091f14086655c5!2sHaven%20Court!5e0!3m2!1sen!2ske!4v1717690000000!5m2!1sen!2ske"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0, minHeight: '16rem', width: '100%' }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
             
