@@ -18,14 +18,14 @@ const TestimonialsSection: React.FC = () => {
           <TestimonialCard
             name="Phanice Mukhungu"
             role="Program Beneficiary"
-            image="/placeholder.svg"
+            image="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1747641876/photo_2024-12-19_11-51-59_plqiva.jpg"
             quote="Thanks to the scholarship program, I can now pursue my dream of becoming a teacher and help other children in my community."
           />
           
           <TestimonialCard
             name="Ewa"
             role="Donor from Ireland"
-            image="/placeholder.svg"
+            image="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1747641876/photo_2024-12-19_11-51-59_plqiva.jpg"
             quote="Supporting HappyMeHappyYou has been one of the most rewarding experiences. I can see the direct impact of my contributions."
           />
         </div>
