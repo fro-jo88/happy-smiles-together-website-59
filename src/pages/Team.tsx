@@ -5,48 +5,48 @@ import { Button } from '@/components/ui/button';
 import TeamMemberCard from '@/components/TeamMemberCard';
 
 const Team = () => {
-  // Team member data
+  // Team member data with updated image URLs
   const teamMembers = [
     {
       name: "Eva Kitui",
       title: "Co-Founder",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1747125790/DSC_3901_edited_ongzhh.webp",
       bio: "Eva has dedicated her life to improving educational opportunities for children in Western Kenya."
     },
     {
       name: "Elvis Ingadi",
       title: "Founder & Programs Manager",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1747126066/DSC_3939_edited_lpbsb4.webp",
       bio: "Elvis founded HappyMeHappyYou after overcoming personal tragedy and seeing the need for community support."
     },
     {
       name: "Jennifer Agamu",
       title: "Community Parents Representative",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1747126355/jenifer_bbg72e.jpg",
       bio: "Jennifer works closely with families in the community to ensure their needs are represented."
     },
     {
       name: "Fanis Khatenje",
       title: "ECD Teacher",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1747126316/fanis_sgcfmo.jpg",
       bio: "Fanis brings over 10 years of experience in early childhood development to our programs."
     },
     {
       name: "Jarred Wafula",
       title: "Social Worker",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1747126317/jarred_esybx9.jpg",
       bio: "Jarred provides crucial support to children and families dealing with trauma and difficult circumstances."
     },
     {
       name: "Horridah Angila",
       title: "Chef / Cook",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1747126317/horidah_zmguaq.jpg",
       bio: "Horridah ensures our feeding program provides nutritious and delicious meals to all children."
     },
     {
       name: "Dorcas Toekesi Karakacha",
       title: "ECD Teacher",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/dg1ijsqx6/image/upload/v1747126316/dorcas_kbjleg.jpg",
       bio: "Dorcas specializes in creating engaging learning environments for our youngest participants."
     }
   ];
