@@ -1,11 +1,11 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { HandHeart, Users, Award, ArrowRight, BookOpen, Utensils, GraduationCap, 
-  Droplets, Heart, Lightbulb, Scissors, HomeIcon, Users2, Water, 
+  Droplets, Heart, Lightbulb, Scissors, HomeIcon, Users2, 
   UserPlus, School, Building, Bike, AlertTriangle, HelpingHand } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import TestimonialCard from '@/components/TestimonialCard';
 
 interface ProgramCardProps {
   title: string;
@@ -153,6 +153,34 @@ const Programs = () => {
           </div>
         </div>
       </div>
+
+      {/* Client Feedback Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="hmhy-container">
+          <h2 className="section-title text-hmhy-orange">Client Feedback</h2>
+          <p className="section-subtitle mb-10">
+            What people are saying about our programs
+          </p>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+            <div className="flex justify-center">
+              <img 
+                src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1747641876/photo_2024-12-19_11-51-59_plqiva.jpg" 
+                alt="Client feedback" 
+                className="rounded-lg shadow-lg max-w-full h-auto"
+              />
+            </div>
+            <div>
+              <TestimonialCard
+                name="Mary Wambui"
+                role="Program Beneficiary"
+                image="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1747641876/photo_2024-12-19_11-51-59_plqiva.jpg"
+                quote="The support from Happy Me Happy You Organization has changed my family's life completely. My children now have access to education and clean water, and I've learned valuable skills that help me provide for them."
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Call to Action */}
       <section className="py-16 bg-hmhy-purple text-white">
