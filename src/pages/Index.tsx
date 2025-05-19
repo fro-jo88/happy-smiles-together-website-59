@@ -125,7 +125,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="/placeholder.svg" 
+                src="https://res.cloudinary.com/dg1ijsqx6/image/upload/v1747641072/06c877_bdc6a4c2d1b44c04b1f9a31fe1ecc497mv2-265x300_swvrzl.jpg" 
                 alt="Children smiling" 
                 className="rounded-xl shadow-lg w-full"
               />
